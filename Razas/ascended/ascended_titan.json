@@ -1,0 +1,53 @@
+{
+  "race_name": "Ascended Titan",
+  "icon": "Ingredient_Water_Essence",
+  "description": "A towering paragon of divine force whose body and will crush mortal resistance.",
+  "model": "Feran_Windwalker",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "ascended_titan",
+    "stage": "tier_2",
+    "path": "strength",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "life_force": 225,
+        "strength": 225
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "ascended_divinity",
+        "name": "Ascended Divinity"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 165.62,
+    "strength": 78.65,
+    "defense": 36.98,
+    "haste": 108.9,
+    "precision": 14.4,
+    "ferocity": 11.09,
+    "stamina": 12.71,
+    "flow": 16.94,
+    "sorcery": 18.15,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 1.35
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2
+    }
+  ]
+}

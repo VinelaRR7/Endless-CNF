@@ -1,0 +1,57 @@
+{
+  "race_name": "Watcher Arbiter",
+  "icon": "Ingredient_Void_Essence",
+  "description": "The final Watcher state, channeling boundless sustain into measured eldritch judgment — empowering allies and unraveling foes through patient arcane mastery.",
+  "model": "Hedera",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "watcher_arbiter",
+    "stage": "final",
+    "path": "hybrid",
+    "final_form": true,
+    "requirements": {
+      "required_prestige": 20,
+      "min_skill_levels": {
+        "flow": 187,
+        "life_force": 112,
+        "sorcery": 451
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": []
+  },
+  "attributes": {
+    "life_force": 250.46,
+    "strength": 0.0,
+    "defense": 11.33,
+    "haste": 138.42,
+    "precision": 18.43,
+    "ferocity": 30.64,
+    "stamina": 9.68,
+    "flow": 80.64,
+    "sorcery": 125,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "MANA_REGEN",
+      "value": 0.09
+    },
+    {
+      "type": "HEALTH_REGEN",
+      "value": 0.05
+    },
+    {
+      "type": "XP_BONUS",
+      "value": 0.15
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.75
+    }
+  ]
+}

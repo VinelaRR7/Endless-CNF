@@ -1,0 +1,66 @@
+{
+  "race_name": "Darkin Unbound",
+  "icon": "Ingredient_Void_Essence",
+  "description": "A transcendent Darkin who fuses warlord brutality with blood sorcery mastery.",
+  "model": "Skeleton_Incandescent_Footman",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "darkin_unbound",
+    "stage": "final",
+    "path": "hybrid",
+    "final_form": true,
+    "requirements": {
+      "required_prestige": 20,
+      "min_skill_levels": {
+        "life_force": 225
+      },
+      "max_skill_levels": {},
+      "min_combined_skill_levels": [
+        {
+          "attributes": [
+            "strength",
+            "sorcery"
+          ],
+          "min": 300
+        }
+      ],
+      "required_augments": []
+    },
+    "next_paths": []
+  },
+  "attributes": {
+    "life_force": 208.72,
+    "strength": 117.61,
+    "defense": 22.65,
+    "haste": 165.17,
+    "precision": 6.91,
+    "ferocity": 27.65,
+    "stamina": 13.84,
+    "flow": 11.01,
+    "sorcery": 117.61,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "HEALING_BONUS",
+      "value": 1
+    },
+    {
+      "type": "MANA_REGEN",
+      "value": 0.05
+    },
+    {
+      "type": "RAVENOUS_STRIKE",
+      "value": 10,
+      "strength_scaling": 0.2,
+      "sorcery_scaling": 0.2
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2.1
+    }
+  ]
+}

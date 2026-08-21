@@ -1,0 +1,65 @@
+{
+  "race_name": "Alpha Dragon",
+  "icon": "Ingredient_Void_Essence",
+  "description": "The pinnacle of draconic evolution — an Alpha Dragon who commands both the unbreakable resilience of a sentinel and the devastating ferocity of a tyrant.",
+  "model": "Saurian_Hunter",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "dragonborn_alpha",
+    "stage": "final",
+    "path": "hybrid",
+    "final_form": true,
+    "requirements": {
+      "required_prestige": 20,
+      "min_skill_levels": {
+        "life_force": 300
+      },
+      "max_skill_levels": {},
+      "min_combined_skill_levels": [
+        {
+          "attributes": [
+            "strength",
+            "sorcery"
+          ],
+          "min": 225
+        }
+      ],
+      "required_augments": []
+    },
+    "next_paths": []
+  },
+  "attributes": {
+    "life_force": 425.92,
+    "strength": 95.11,
+    "defense": 184.1,
+    "haste": 146.29,
+    "precision": 6.91,
+    "ferocity": 36.86,
+    "stamina": 16.52,
+    "flow": 16.52,
+    "sorcery": 14.52,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SECOND_WIND",
+      "value": 0.65,
+      "threshold": 0.3,
+      "duration": 15,
+      "cooldown": 35
+    },
+    {
+      "type": "SWIFTNESS",
+      "value": 0.09,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2.5
+    }
+  ]
+}

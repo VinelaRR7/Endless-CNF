@@ -1,0 +1,56 @@
+{
+  "race_name": "Wraith",
+  "icon": "Ingredient_Life_Essence",
+  "description": "Cursed spirits tethered to the mortal plane, Wraiths excel at swift, lethal strikes and evasion.",
+  "model": "Wraith",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "wraith",
+    "stage": "base",
+    "path": "none",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 0,
+      "min_skill_levels": {},
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "wraith_whisper",
+        "name": "Wraith Whisper"
+      },
+      {
+        "id": "wraith_fang",
+        "name": "Wraith Fang"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 49,
+    "strength": 82,
+    "defense": 12,
+    "haste": 110,
+    "precision": 5,
+    "ferocity": 33.4,
+    "stamina": 7,
+    "flow": 14,
+    "sorcery": 15,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SWIFTNESS",
+      "value": 0.065,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 0.49
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "race_name": "Darkin Bloodlord",
+  "icon": "Ingredient_Water_Essence",
+  "description": "An ascended blood sovereign whose sorcery overwhelms flesh and will.",
+  "model": "Skeleton_Incandescent_Footman",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "darkin_bloodlord",
+    "stage": "tier_2",
+    "path": "sorcery",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "sorcery": 360,
+        "life_force": 90
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "darkin_unbound",
+        "name": "Darkin Unbound"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 109.85,
+    "strength": 19.62,
+    "defense": 18.49,
+    "haste": 127.05,
+    "precision": 4.32,
+    "ferocity": 17.28,
+    "stamina": 10.65,
+    "flow": 8.47,
+    "sorcery": 98.01,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "HEALING_BONUS",
+      "value": 0.8
+    },
+    {
+      "type": "MANA_REGEN",
+      "value": 0.04
+    },
+    {
+      "type": "RAVENOUS_STRIKE",
+      "value": 7,
+      "strength_scaling": 0.05,
+      "sorcery_scaling": 0.15
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.9
+    }
+  ]
+}

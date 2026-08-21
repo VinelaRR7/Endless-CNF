@@ -1,0 +1,75 @@
+{
+  "race_name": "Golem Ravager",
+  "icon": "Ingredient_Water_Essence",
+  "description": "An annihilation-class golem that fuses crushing force with inexhaustible battle endurance. Cannot land critical hits; precision and ferocity are removed.",
+  "model": "Golem_Crystal_Earth",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "golem_ravager",
+    "stage": "tier_2",
+    "path": "damage",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "stamina": 225
+      },
+      "max_skill_levels": {},
+      "min_combined_skill_levels": [
+        {
+          "attributes": [
+            "strength",
+            "sorcery"
+          ],
+          "min": 225
+        }
+      ],
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "golem_prime",
+        "name": "Golem Prime"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 329.55,
+    "strength": 18.15,
+    "defense": 138.68,
+    "haste": 72.6,
+    "precision": 0.0,
+    "ferocity": 0.0,
+    "stamina": 16.94,
+    "flow": 4.24,
+    "sorcery": 0.0,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "CRIT_RESTRICTION",
+      "name": "No Critical Strikes",
+      "value": 0
+    },
+    {
+      "type": "RETALIATION",
+      "value": 0.32,
+      "window": 4,
+      "cooldown": 17
+    },
+    {
+      "type": "SECOND_WIND",
+      "value": 0.6,
+      "threshold": 0.25,
+      "duration": 12,
+      "cooldown": 45
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2.7
+    }
+  ]
+}

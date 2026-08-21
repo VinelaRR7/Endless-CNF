@@ -1,0 +1,71 @@
+{
+  "race_name": "Golem Prime",
+  "icon": "Ingredient_Void_Essence",
+  "description": "The perfected golem state, unifying supreme defense with catastrophic endurance-driven offense. Cannot land critical hits; precision and ferocity are removed.",
+  "model": "Golem_Crystal_Earth",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "golem_prime",
+    "stage": "final",
+    "path": "hybrid",
+    "final_form": true,
+    "requirements": {
+      "required_prestige": 20,
+      "min_skill_levels": {
+        "life_force": 487,
+        "stamina": 113
+      },
+      "max_skill_levels": {},
+      "min_combined_skill_levels": [
+        {
+          "attributes": [
+            "strength",
+            "sorcery"
+          ],
+          "min": 150
+        }
+      ],
+      "required_augments": []
+    },
+    "next_paths": []
+  },
+  "attributes": {
+    "life_force": 728.54,
+    "strength": 21.78,
+    "defense": 230.12,
+    "haste": 94.38,
+    "precision": 0.0,
+    "ferocity": 0.0,
+    "stamina": 22.02,
+    "flow": 5.51,
+    "sorcery": 0.0,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "CRIT_RESTRICTION",
+      "name": "No Critical Strikes",
+      "value": 0
+    },
+    {
+      "type": "RETALIATION",
+      "value": 0.45,
+      "window": 4,
+      "cooldown": 14
+    },
+    {
+      "type": "SECOND_WIND",
+      "value": 0.75,
+      "threshold": 0.3,
+      "duration": 14,
+      "cooldown": 40
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 3.5
+    }
+  ]
+}

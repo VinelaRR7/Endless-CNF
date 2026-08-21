@@ -1,0 +1,56 @@
+{
+  "race_name": "Watcher Eldritch",
+  "icon": "Ingredient_Water_Essence",
+  "description": "An apex destroyer from beyond, weaving sorcery and critical force into terrifying void eruptions.",
+  "model": "Hedera",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "watcher_eldritch",
+    "stage": "tier_2",
+    "path": "damage",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "sorcery": 450
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "watcher_arbiter",
+        "name": "Watcher Arbiter"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 131.82,
+    "strength": 0.0,
+    "defense": 9.24,
+    "haste": 106.48,
+    "precision": 11.52,
+    "ferocity": 19.15,
+    "stamina": 5.08,
+    "flow": 42.35,
+    "sorcery": 104.17,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "MANA_REGEN",
+      "value": 0.06
+    },
+    {
+      "type": "XP_BONUS",
+      "value": 0.115
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.15
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "race_name": "Celestial Overlord",
+  "icon": "Ingredient_Water_Essence",
+  "description": "A Celestial Arcanum who has refined cosmic precision to its apex, shattering enemies with catastrophic critical strikes.",
+  "model": "Shadow_Knight",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "celestial_overlord",
+    "stage": "tier_2",
+    "path": "sorcery",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "sorcery": 450
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "celestial_supreme",
+        "name": "Celestial Supreme"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 84.5,
+    "strength": 12.1,
+    "defense": 9.24,
+    "haste": 106.48,
+    "precision": 5.04,
+    "ferocity": 40.9,
+    "stamina": 6.78,
+    "flow": 29.65,
+    "sorcery": 121.0,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 1.4
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.4
+    }
+  ]
+}

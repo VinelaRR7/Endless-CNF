@@ -1,0 +1,62 @@
+{
+  "race_name": "Watcher Oracle",
+  "icon": "Ingredient_Water_Essence",
+  "description": "A prophetic Watcher whose mastery of mana and vitality lets them sustain impossible cosmic pressure.",
+  "model": "Hedera",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "watcher_oracle",
+    "stage": "tier_2",
+    "path": "support",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "flow": 225,
+        "life_force": 90,
+        "stamina": 135
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "watcher_arbiter",
+        "name": "Watcher Arbiter"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 131.82,
+    "strength": 0.0,
+    "defense": 9.24,
+    "haste": 106.48,
+    "precision": 11.52,
+    "ferocity": 19.15,
+    "stamina": 6.05,
+    "flow": 50.4,
+    "sorcery": 94.91,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "MANA_REGEN",
+      "value": 0.06
+    },
+    {
+      "type": "HEALTH_REGEN",
+      "value": 0.04
+    },
+    {
+      "type": "XP_BONUS",
+      "value": 0.125
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.25
+    }
+  ]
+}

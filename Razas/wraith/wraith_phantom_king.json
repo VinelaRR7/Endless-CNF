@@ -1,0 +1,66 @@
+{
+  "race_name": "Phantom King",
+  "icon": "Ingredient_Void_Essence",
+  "description": "The sovereign form of cursed spirits, fusing untouchable evasion with overwhelming critical lethality.",
+  "model": "Wraith",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "wraith_phantom_king",
+    "stage": "final",
+    "path": "hybrid",
+    "final_form": true,
+    "requirements": {
+      "required_prestige": 20,
+      "min_skill_levels": {
+        "haste": 150,
+        "stamina": 75
+      },
+      "max_skill_levels": {},
+      "min_combined_skill_levels": [
+        {
+          "attributes": [
+            "strength",
+            "sorcery"
+          ],
+          "min": 150
+        }
+      ],
+      "required_augments": []
+    },
+    "next_paths": []
+  },
+  "attributes": {
+    "life_force": 157.34,
+    "strength": 119.06,
+    "defense": 16.99,
+    "haste": 253.44,
+    "precision": 11.52,
+    "ferocity": 76.95,
+    "stamina": 16.13,
+    "flow": 22.02,
+    "sorcery": 21.78,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SWIFTNESS",
+      "value": 0.13,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "ADRENALINE",
+      "value": 0.5,
+      "threshold": 0.25,
+      "duration": 5,
+      "cooldown": 20
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.7
+    }
+  ]
+}

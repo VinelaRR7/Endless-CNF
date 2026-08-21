@@ -1,0 +1,52 @@
+{
+  "race_name": "Celestial Supreme",
+  "icon": "Ingredient_Void_Essence",
+  "description": "The pinnacle of Celestial ascension — a cosmic sovereign who commands both infinite arcane flow and supreme critical devastation.",
+  "model": "Shadow_Knight",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "celestial_supreme",
+    "stage": "final",
+    "path": "hybrid",
+    "final_form": true,
+    "requirements": {
+      "required_prestige": 20,
+      "min_skill_levels": {
+        "sorcery": 562,
+        "flow": 188
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": []
+  },
+  "attributes": {
+    "life_force": 160.55,
+    "strength": 14.52,
+    "defense": 11.33,
+    "haste": 138.42,
+    "precision": 8.06,
+    "ferocity": 65.43,
+    "stamina": 8.81,
+    "flow": 56.45,
+    "sorcery": 145.2,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "MANA_REGEN",
+      "value": 0.04
+    },
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 1.6
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "race_name": "Dragonborn",
+  "icon": "Ingredient_Life_Essence",
+  "description": "Born of draconic blood, Dragonborn possess immense strength, resilience, and overwhelming presence in battle.",
+  "model": "Saurian_Hunter",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "dragonborn",
+    "stage": "base",
+    "path": "none",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 0,
+      "min_skill_levels": {},
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "dragonborn_guardian",
+        "name": "Dragon Guardian"
+      },
+      {
+        "id": "dragonborn_marauder",
+        "name": "Drake Marauder"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 114,
+    "strength": 65.5,
+    "defense": 96,
+    "haste": 93,
+    "precision": 3,
+    "ferocity": 16,
+    "stamina": 10.5,
+    "flow": 10.5,
+    "sorcery": 10,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SWIFTNESS",
+      "value": 0.045,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "SECOND_WIND",
+      "value": 0.325,
+      "threshold": 0.2,
+      "duration": 10,
+      "cooldown": 60
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 0.98
+    }
+  ]
+}

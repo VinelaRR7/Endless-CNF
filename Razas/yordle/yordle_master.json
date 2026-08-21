@@ -1,0 +1,60 @@
+{
+  "race_name": "Yordle Master",
+  "icon": "Ingredient_Void_Essence",
+  "description": "The pinnacle Yordle form, mastering support enchantment and trickster devastation in one legendary body.",
+  "model": "Kweebec_Sapling",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "yordle_master",
+    "stage": "final",
+    "path": "hybrid",
+    "final_form": true,
+    "requirements": {
+      "required_prestige": 20,
+      "min_skill_levels": {
+        "flow": 150,
+        "stamina": 150,
+        "haste": 150,
+        "sorcery": 300
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": []
+  },
+  "attributes": {
+    "life_force": 166.97,
+    "strength": 0.0,
+    "defense": 8.49,
+    "haste": 168.31,
+    "precision": 27.65,
+    "ferocity": 21.2,
+    "stamina": 28.34,
+    "flow": 72.58,
+    "sorcery": 57.35,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SWIFTNESS",
+      "value": 0.12,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 2.8
+    },
+    {
+      "type": "MANA_REGEN",
+      "value": 0.1
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.9
+    }
+  ]
+}

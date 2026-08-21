@@ -1,0 +1,63 @@
+{
+  "race_name": "Void Protector",
+  "icon": "Ingredient_Ice_Essence",
+  "description": "A Voidborn who hardens corruptive flesh into a living bulwark of abyssal endurance.",
+  "model": "Spawn_Void",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "voidborn_protector",
+    "stage": "tier_1",
+    "path": "defense",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 5,
+      "min_skill_levels": {
+        "life_force": 150,
+        "stamina": 150
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "voidborn_juggernaut",
+        "name": "Void Juggernaut"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 132.3,
+    "strength": 15.75,
+    "defense": 73.6,
+    "haste": 99.0,
+    "precision": 7.2,
+    "ferocity": 13.2,
+    "stamina": 9.24,
+    "flow": 30.8,
+    "sorcery": 79.55,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "MANA_REGEN",
+      "value": 0.018
+    },
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 0.45
+    },
+    {
+      "type": "RETALIATION",
+      "value": 0.26,
+      "window": 4,
+      "cooldown": 22
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.65
+    }
+  ]
+}

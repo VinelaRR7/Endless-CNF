@@ -1,0 +1,58 @@
+{
+  "race_name": "Void Oblivion",
+  "icon": "Ingredient_Void_Essence",
+  "description": "The ultimate void incarnation, where indestructible defense and predatory destruction collapse into one form.",
+  "model": "Spawn_Void",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "voidborn_oblivion",
+    "stage": "final",
+    "path": "hybrid",
+    "final_form": true,
+    "requirements": {
+      "required_prestige": 20,
+      "min_skill_levels": {
+        "life_force": 300,
+        "sorcery": 338
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": []
+  },
+  "attributes": {
+    "life_force": 366.14,
+    "strength": 21.78,
+    "defense": 122.72,
+    "haste": 141.57,
+    "precision": 13.82,
+    "ferocity": 25.34,
+    "stamina": 13.21,
+    "flow": 44.04,
+    "sorcery": 110,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "MANA_REGEN",
+      "value": 0.03
+    },
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 0.85
+    },
+    {
+      "type": "RETALIATION",
+      "value": 0.38,
+      "window": 4,
+      "cooldown": 18
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2.6
+    }
+  ]
+}

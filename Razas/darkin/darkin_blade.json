@@ -1,0 +1,59 @@
+{
+  "race_name": "Darkin Blade",
+  "icon": "Ingredient_Ice_Essence",
+  "description": "A Darkin who sharpened their carnage into direct martial supremacy.",
+  "model": "Skeleton_Incandescent_Footman",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "darkin_blade",
+    "stage": "tier_1",
+    "path": "strength",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 5,
+      "min_skill_levels": {
+        "strength": 180,
+        "life_force": 120
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "darkin_warlord",
+        "name": "Darkin Warlord"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 84.5,
+    "strength": 89.1,
+    "defense": 17.2,
+    "haste": 115.5,
+    "precision": 3.6,
+    "ferocity": 14.4,
+    "stamina": 9.68,
+    "flow": 7.7,
+    "sorcery": 17.82,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "HEALING_BONUS",
+      "value": 0.65
+    },
+    {
+      "type": "RAVENOUS_STRIKE",
+      "value": 6,
+      "strength_scaling": 0.1,
+      "sorcery_scaling": 0.05
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.5
+    }
+  ]
+}

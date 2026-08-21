@@ -1,0 +1,67 @@
+{
+  "race_name": "Human Emperor",
+  "icon": "Ingredient_Void_Essence",
+  "description": "The ultimate human sovereign, uniting expedition mastery with conquering might into absolute dominance.",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "human_emperor",
+    "stage": "final",
+    "path": "hybrid",
+    "final_form": true,
+    "requirements": {
+      "required_prestige": 20,
+      "min_skill_levels": {
+        "discipline": 75,
+        "haste": 112
+      },
+      "max_skill_levels": {},
+      "min_combined_skill_levels": [
+        {
+          "attributes": [
+            "strength",
+            "sorcery"
+          ],
+          "min": 188
+        }
+      ],
+      "required_augments": []
+    },
+    "next_paths": []
+  },
+  "attributes": {
+    "life_force": 314.68,
+    "strength": 82.76,
+    "defense": 45.3,
+    "haste": 157.3,
+    "precision": 13.82,
+    "ferocity": 32.26,
+    "stamina": 16.13,
+    "flow": 32.26,
+    "sorcery": 14.52,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "XP_BONUS",
+      "value": 0.375
+    },
+    {
+      "type": "HEALTH_REGEN",
+      "value": 0.06
+    },
+    {
+      "type": "ADRENALINE",
+      "value": 1,
+      "threshold": 0.25,
+      "duration": 3,
+      "cooldown": 32
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2.6
+    }
+  ]
+}

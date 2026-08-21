@@ -1,0 +1,60 @@
+{
+  "race_name": "Vastaya",
+  "icon": "Ingredient_Life_Essence",
+  "description": "Mysterious and agile, Vastaya are a race of animalistic humanoids with a deep connection to nature.",
+  "model": "Feran",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "vastaya",
+    "stage": "base",
+    "path": "origin",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 0,
+      "min_skill_levels": {},
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "vastaya_hunter",
+        "name": "Vastaya Hunter"
+      },
+      {
+        "id": "vastaya_mystic",
+        "name": "Vastaya Mystic"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 81,
+    "strength": 53.5,
+    "defense": 10,
+    "haste": 110,
+    "precision": 8,
+    "ferocity": 16.7,
+    "stamina": 7,
+    "flow": 21,
+    "sorcery": 15,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "XP_BONUS",
+      "value": 0.0875
+    },
+    {
+      "type": "SWIFTNESS",
+      "value": 0.055,
+      "duration": 5,
+      "max_stacks": 8
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 0.65
+    }
+  ]
+}

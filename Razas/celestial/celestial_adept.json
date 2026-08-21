@@ -1,0 +1,57 @@
+{
+  "race_name": "Celestial Adept",
+  "icon": "Ingredient_Ice_Essence",
+  "description": "A Celestial who channels their cosmic nature into an endless wellspring of arcane flow, sustaining magic far beyond normal limits.",
+  "model": "Shadow_Knight",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "celestial_adept",
+    "stage": "tier_1",
+    "path": "flow",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 5,
+      "min_skill_levels": {
+        "sorcery": 150,
+        "flow": 150
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "celestial_catalyst",
+        "name": "Celestial Catalyst"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 65.0,
+    "strength": 10.5,
+    "defense": 8.6,
+    "haste": 96.8,
+    "precision": 4.2,
+    "ferocity": 34.08,
+    "stamina": 6.16,
+    "flow": 29.4,
+    "sorcery": 105.0,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "MANA_REGEN",
+      "value": 0.025
+    },
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 0.8
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 0.9
+    }
+  ]
+}

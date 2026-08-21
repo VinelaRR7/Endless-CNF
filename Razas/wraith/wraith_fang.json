@@ -1,0 +1,61 @@
+{
+  "race_name": "Wraith Fang",
+  "icon": "Ingredient_Ice_Essence",
+  "description": "A predatory spirit form that turns critical violence into rapid executions.",
+  "model": "Wraith",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "wraith_fang",
+    "stage": "tier_1",
+    "path": "damage",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 5,
+      "min_skill_levels": {},
+      "max_skill_levels": {},
+      "min_combined_skill_levels": [
+        {
+          "attributes": [
+            "strength",
+            "sorcery"
+          ],
+          "min": 150
+        }
+      ],
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "wraith_reaver",
+        "name": "Wraith Reaver"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 63.7,
+    "strength": 90.2,
+    "defense": 12.9,
+    "haste": 121.0,
+    "precision": 6.0,
+    "ferocity": 40.08,
+    "stamina": 7.7,
+    "flow": 15.4,
+    "sorcery": 16.5,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SWIFTNESS",
+      "value": 0.087,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 0.82
+    }
+  ]
+}

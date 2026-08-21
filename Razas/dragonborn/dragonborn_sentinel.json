@@ -1,0 +1,62 @@
+{
+  "race_name": "Dragon Sentinel",
+  "icon": "Ingredient_Water_Essence",
+  "description": "A Dragon Guardian who has mastered the art of draconic endurance, becoming an immovable wall of scales and regenerative power.",
+  "model": "Saurian_Hunter",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "dragonborn_sentinel",
+    "stage": "tier_2",
+    "path": "defense",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "life_force": 225,
+        "stamina": 225
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "dragonborn_alpha",
+        "name": "Alpha Dragon"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 207.77,
+    "strength": 72.21,
+    "defense": 126.96,
+    "haste": 112.53,
+    "precision": 4.32,
+    "ferocity": 23.04,
+    "stamina": 12.71,
+    "flow": 12.71,
+    "sorcery": 11.03,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SECOND_WIND",
+      "value": 0.58,
+      "threshold": 0.3,
+      "duration": 15,
+      "cooldown": 40
+    },
+    {
+      "type": "SWIFTNESS",
+      "value": 0.075,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2
+    }
+  ]
+}

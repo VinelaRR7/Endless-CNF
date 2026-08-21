@@ -1,0 +1,58 @@
+{
+  "race_name": "Iceborn Ragnarok",
+  "icon": "Ingredient_Water_Essence",
+  "description": "A cataclysmic Iceborn warform where each critical strike echoes like a shattering avalanche.",
+  "model": "Outlander_Brute",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "iceborn_ragnarok",
+    "stage": "tier_2",
+    "path": "damage",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "stamina": 135,
+        "strength": 315
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "iceborn_frostlord",
+        "name": "Iceborn Frostlord"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 158.86,
+    "strength": 62.32,
+    "defense": 55.46,
+    "haste": 108.9,
+    "precision": 11.52,
+    "ferocity": 11.52,
+    "stamina": 16.94,
+    "flow": 8.47,
+    "sorcery": 18.15,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "HEALTH_REGEN",
+      "value": 0.038
+    },
+    {
+      "type": "BERZERKER",
+      "value": 0.38,
+      "threshold": 0.35
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2.2
+    }
+  ]
+}

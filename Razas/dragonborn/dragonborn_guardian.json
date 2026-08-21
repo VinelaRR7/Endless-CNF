@@ -1,0 +1,62 @@
+{
+  "race_name": "Dragon Guardian",
+  "icon": "Ingredient_Ice_Essence",
+  "description": "A Dragonborn who channels their draconic resilience into an unbreakable fortress of scales and vitality.",
+  "model": "Saurian_Hunter",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "dragonborn_guardian",
+    "stage": "tier_1",
+    "path": "defense",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 5,
+      "min_skill_levels": {
+        "life_force": 150,
+        "stamina": 150
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "dragonborn_sentinel",
+        "name": "Dragon Sentinel"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 153.9,
+    "strength": 68.78,
+    "defense": 110.4,
+    "haste": 102.3,
+    "precision": 3.6,
+    "ferocity": 19.2,
+    "stamina": 11.55,
+    "flow": 11.55,
+    "sorcery": 10.5,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SECOND_WIND",
+      "value": 0.42,
+      "threshold": 0.25,
+      "duration": 12,
+      "cooldown": 50
+    },
+    {
+      "type": "SWIFTNESS",
+      "value": 0.06,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.5
+    }
+  ]
+}

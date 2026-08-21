@@ -1,0 +1,59 @@
+{
+  "race_name": "Iceborn",
+  "icon": "Ingredient_Life_Essence",
+  "description": "Empowered by eternal frost, Iceborn warriors are durable, relentless, and resistant to harm.",
+  "model": "Outlander_Brute",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "iceborn",
+    "stage": "base",
+    "path": "none",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 0,
+      "min_skill_levels": {},
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "iceborn_guardian",
+        "name": "Iceborn Guardian"
+      },
+      {
+        "id": "iceborn_berzerker",
+        "name": "Iceborn Berzerker"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 94,
+    "strength": 51.5,
+    "defense": 48,
+    "haste": 90,
+    "precision": 8,
+    "ferocity": 8,
+    "stamina": 14,
+    "flow": 7,
+    "sorcery": 15,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "HEALTH_REGEN",
+      "value": 0.021
+    },
+    {
+      "type": "BERZERKER",
+      "value": 0.14,
+      "threshold": 0.35
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.14
+    }
+  ]
+}

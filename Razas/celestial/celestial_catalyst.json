@@ -1,0 +1,57 @@
+{
+  "race_name": "Celestial Catalyst",
+  "icon": "Ingredient_Water_Essence",
+  "description": "A Celestial Adept who has mastered the art of infinite cosmic flow, converting mana into a boundless engine of arcane destruction.",
+  "model": "Shadow_Knight",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "celestial_catalyst",
+    "stage": "tier_2",
+    "path": "flow",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "sorcery": 225,
+        "flow": 225
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "celestial_supreme",
+        "name": "Celestial Supreme"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 84.5,
+    "strength": 11.03,
+    "defense": 9.24,
+    "haste": 106.48,
+    "precision": 5.04,
+    "ferocity": 40.9,
+    "stamina": 6.78,
+    "flow": 35.28,
+    "sorcery": 110.25,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "MANA_REGEN",
+      "value": 0.035
+    },
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 1.2
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.4
+    }
+  ]
+}

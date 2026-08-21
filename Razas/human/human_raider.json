@@ -1,0 +1,69 @@
+{
+  "race_name": "Human Raider",
+  "icon": "Ingredient_Ice_Essence",
+  "description": "A ruthless combat specialist who turns raw force or arcane talent into devastating critical damage.",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "human_raider",
+    "stage": "tier_1",
+    "path": "damage",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 5,
+      "min_skill_levels": {},
+      "max_skill_levels": {},
+      "min_combined_skill_levels": [
+        {
+          "attributes": [
+            "strength",
+            "sorcery"
+          ],
+          "min": 150
+        }
+      ],
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "human_conqueror",
+        "name": "Human Conqueror"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 127.4,
+    "strength": 62.7,
+    "defense": 34.4,
+    "haste": 110.0,
+    "precision": 7.2,
+    "ferocity": 16.8,
+    "stamina": 7.7,
+    "flow": 15.4,
+    "sorcery": 11.0,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "XP_BONUS",
+      "value": 0.2
+    },
+    {
+      "type": "HEALTH_REGEN",
+      "value": 0.035
+    },
+    {
+      "type": "ADRENALINE",
+      "value": 0.7,
+      "threshold": 0.2,
+      "duration": 3,
+      "cooldown": 42
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.7
+    }
+  ]
+}

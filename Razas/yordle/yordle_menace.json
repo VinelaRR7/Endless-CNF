@@ -1,0 +1,59 @@
+{
+  "race_name": "Yordle Menace",
+  "icon": "Ingredient_Water_Essence",
+  "description": "An apex prankster of destruction, blending impossible speed with brutal crit bursts.",
+  "model": "Kweebec_Sapling",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "yordle_menace",
+    "stage": "tier_2",
+    "path": "damage",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "haste": 225,
+        "sorcery": 225
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "yordle_master",
+        "name": "Yordle Master"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 87.88,
+    "strength": 0.0,
+    "defense": 6.93,
+    "haste": 129.47,
+    "precision": 17.28,
+    "ferocity": 13.25,
+    "stamina": 14.88,
+    "flow": 38.12,
+    "sorcery": 47.8,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SWIFTNESS",
+      "value": 0.1,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 2.4
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.4
+    }
+  ]
+}

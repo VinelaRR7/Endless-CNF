@@ -1,0 +1,62 @@
+{
+  "race_name": "Void Prowler",
+  "icon": "Ingredient_Ice_Essence",
+  "description": "A predatory void stalker who weaves dark sorcery and shadow strikes into lethal ambushes.",
+  "model": "Spawn_Void",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "voidborn_prowler",
+    "stage": "tier_1",
+    "path": "damage",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 5,
+      "min_skill_levels": {
+        "sorcery": 150
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "voidborn_reaver",
+        "name": "Void Reaver"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 127.4,
+    "strength": 16.5,
+    "defense": 68.8,
+    "haste": 99.0,
+    "precision": 7.2,
+    "ferocity": 13.2,
+    "stamina": 9.24,
+    "flow": 30.8,
+    "sorcery": 83.34,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "MANA_REGEN",
+      "value": 0.02
+    },
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 0.6
+    },
+    {
+      "type": "RETALIATION",
+      "value": 0.23,
+      "window": 4,
+      "cooldown": 23
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.55
+    }
+  ]
+}

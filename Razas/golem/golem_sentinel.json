@@ -1,0 +1,67 @@
+{
+  "race_name": "Golem Sentinel",
+  "icon": "Ingredient_Ice_Essence",
+  "description": "A fortified golem form focused on absolute mitigation and unshakable front-line control. Cannot land critical hits; precision and ferocity are removed.",
+  "model": "Golem_Crystal_Earth",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "golem_sentinel",
+    "stage": "tier_1",
+    "path": "defense",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 5,
+      "min_skill_levels": {
+        "life_force": 150,
+        "stamina": 150
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "golem_colossus",
+        "name": "Golem Colossus"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 263.25,
+    "strength": 15.75,
+    "defense": 138.0,
+    "haste": 66.0,
+    "precision": 0.0,
+    "ferocity": 0.0,
+    "stamina": 15.4,
+    "flow": 3.85,
+    "sorcery": 0.0,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "CRIT_RESTRICTION",
+      "name": "No Critical Strikes",
+      "value": 0
+    },
+    {
+      "type": "RETALIATION",
+      "value": 0.3,
+      "window": 5,
+      "cooldown": 22
+    },
+    {
+      "type": "SECOND_WIND",
+      "value": 0.55,
+      "threshold": 0.25,
+      "duration": 15,
+      "cooldown": 55
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2.2
+    }
+  ]
+}

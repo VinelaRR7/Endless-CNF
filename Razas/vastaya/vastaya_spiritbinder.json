@@ -1,0 +1,60 @@
+{
+  "race_name": "Vastaya Spiritbinder",
+  "icon": "Ingredient_Water_Essence",
+  "description": "A transcendent channeler bound to ancestral spirits, weaving velocity and arcane instinct as one.",
+  "model": "Feran",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "vastaya_spiritbinder",
+    "stage": "tier_2",
+    "path": "sorcery",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "sorcery": 225,
+        "haste": 225,
+        "strength": 225
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "vastaya_apex",
+        "name": "Vastaya Apex"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 136.89,
+    "strength": 64.74,
+    "defense": 11.56,
+    "haste": 133.1,
+    "precision": 11.52,
+    "ferocity": 24.05,
+    "stamina": 8.47,
+    "flow": 25.41,
+    "sorcery": 64.74,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "XP_BONUS",
+      "value": 0.175
+    },
+    {
+      "type": "SWIFTNESS",
+      "value": 0.092,
+      "duration": 5,
+      "max_stacks": 8
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.75
+    }
+  ]
+}

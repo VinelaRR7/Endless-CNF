@@ -1,0 +1,68 @@
+{
+  "race_name": "Dragon Tyrant",
+  "icon": "Ingredient_Water_Essence",
+  "description": "A Drake Marauder who has ascended into apex predator status, critical strikes triggering with terrifying frequency and devastation.",
+  "model": "Saurian_Hunter",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "dragonborn_tyrant",
+    "stage": "tier_2",
+    "path": "offense",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {},
+      "max_skill_levels": {},
+      "min_combined_skill_levels": [
+        {
+          "attributes": [
+            "strength",
+            "sorcery"
+          ],
+          "min": 225
+        }
+      ],
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "dragonborn_alpha",
+        "name": "Alpha Dragon"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 192.66,
+    "strength": 79.26,
+    "defense": 110.94,
+    "haste": 112.53,
+    "precision": 4.32,
+    "ferocity": 23.04,
+    "stamina": 12.71,
+    "flow": 12.71,
+    "sorcery": 12.1,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SWIFTNESS",
+      "value": 0.075,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "SECOND_WIND",
+      "value": 0.32,
+      "threshold": 0.2,
+      "duration": 10,
+      "cooldown": 60
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.6
+    }
+  ]
+}

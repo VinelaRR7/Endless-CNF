@@ -1,0 +1,63 @@
+{
+  "race_name": "Vastaya Apex",
+  "icon": "Ingredient_Void_Essence",
+  "description": "The ultimate Vastaya state where primal might, spirit craft, and impossible speed merge into one apex form.",
+  "model": "Feran",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "vastaya_apex",
+    "stage": "final",
+    "path": "hybrid",
+    "final_form": true,
+    "requirements": {
+      "required_prestige": 20,
+      "min_skill_levels": {
+        "haste": 150,
+        "discipline": 75
+      },
+      "max_skill_levels": {},
+      "min_combined_skill_levels": [
+        {
+          "attributes": [
+            "strength",
+            "sorcery"
+          ],
+          "min": 300
+        }
+      ],
+      "required_augments": []
+    },
+    "next_paths": []
+  },
+  "attributes": {
+    "life_force": 260.09,
+    "strength": 77.68,
+    "defense": 14.16,
+    "haste": 173.03,
+    "precision": 18.43,
+    "ferocity": 38.48,
+    "stamina": 11.01,
+    "flow": 33.03,
+    "sorcery": 77.68,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "XP_BONUS",
+      "value": 0.2125
+    },
+    {
+      "type": "SWIFTNESS",
+      "value": 0.11,
+      "duration": 5,
+      "max_stacks": 8
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 2.2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "race_name": "Wraith Spectral",
+  "icon": "Ingredient_Water_Essence",
+  "description": "A perfected evasive apparition that phases through danger and keeps pressure with relentless mobility.",
+  "model": "Wraith",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "wraith_spectral",
+    "stage": "tier_2",
+    "path": "evasion",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "haste": 225,
+        "stamina": 225,
+        "strength": 225
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "wraith_phantom_king",
+        "name": "Wraith Phantom King"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 82.81,
+    "strength": 90.41,
+    "defense": 13.87,
+    "haste": 158.4,
+    "precision": 7.2,
+    "ferocity": 48.1,
+    "stamina": 10.08,
+    "flow": 16.94,
+    "sorcery": 16.54,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SWIFTNESS",
+      "value": 0.108,
+      "duration": 5,
+      "max_stacks": 5
+    },
+    {
+      "type": "ADRENALINE",
+      "value": 0.35,
+      "threshold": 0.2,
+      "duration": 5,
+      "cooldown": 30
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.1
+    }
+  ]
+}

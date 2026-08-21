@@ -1,0 +1,59 @@
+{
+  "race_name": "Yordle Enchanter",
+  "icon": "Ingredient_Water_Essence",
+  "description": "A master support Yordle whose mana reserves and stamina control empower endless magical pressure.",
+  "model": "Kweebec_Sapling",
+  "model_scale": 1,
+  "enabled": true,
+  "ascension": {
+    "id": "yordle_enchanter",
+    "stage": "tier_2",
+    "path": "support",
+    "final_form": false,
+    "requirements": {
+      "required_prestige": 10,
+      "min_skill_levels": {
+        "flow": 180,
+        "stamina": 180,
+        "haste": 90,
+        "sorcery": 180
+      },
+      "max_skill_levels": {},
+      "required_augments": []
+    },
+    "next_paths": [
+      {
+        "id": "yordle_master",
+        "name": "Yordle Master"
+      }
+    ]
+  },
+  "attributes": {
+    "life_force": 87.88,
+    "strength": 0.0,
+    "defense": 6.93,
+    "haste": 129.47,
+    "precision": 17.28,
+    "ferocity": 13.25,
+    "stamina": 17.71,
+    "flow": 45.36,
+    "sorcery": 43.55,
+    "discipline": 0
+  },
+  "passives": [
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 2.2
+    },
+    {
+      "type": "MANA_REGEN",
+      "value": 0.075
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "life_force",
+      "stat_type": "basestat",
+      "value": 1.45
+    }
+  ]
+}
