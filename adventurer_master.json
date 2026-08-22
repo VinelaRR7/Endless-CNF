@@ -1,0 +1,75 @@
+﻿{
+  "class_name": "Master Adventurer",
+  "id": "adventurer_master",
+  "description": "A flexible pathfinder who blends martial training with survival instincts.",
+  "roles": [
+    "Skirmisher"
+  ],
+  "damage_type": "Hybrid",
+  "range_type": "melee/range",
+  "enabled": true,
+  "icon": "Ingredient_Life_Essence",
+  "weapons": [
+    {
+      "type": "SWORD",
+      "damage": 1.090
+    },
+    {
+      "type": "BOW",
+      "damage": 1.090
+    },
+    {
+      "type": "STAFF",
+      "damage": 1.090
+    },
+    {
+      "type": "DAGGER",
+      "damage": 1.090
+    }
+  ],
+  "passives": [
+    {
+      "type": "XP_BONUS",
+      "value": 0.125
+    },
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 0.5
+    },
+    {
+      "type": "ADRENALINE",
+      "value": 0.8,
+      "threshold": 0.2,
+      "duration": 3,
+      "cooldown": 20
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "strength",
+      "stat_type": "basestat",
+      "value": 0.55
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "stamina",
+      "stat_type": "basestat",
+      "value": 0.60
+    }
+  ],
+  "ascension": {
+    "id": "class_adventurer_master",
+    "stage": "master",
+    "path": "adventurer",
+    "final_form": false,
+    "single_route_only": true,
+    "requirements": {
+      "required_prestige": 5
+    },
+    "next_paths": [
+      {
+        "id": "class_adventurer_legendary",
+        "name": "Legendary"
+      }
+    ]
+  }
+}

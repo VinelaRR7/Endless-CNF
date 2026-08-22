@@ -1,0 +1,75 @@
+﻿{
+  "class_name": "Legendary Adventurer",
+  "id": "adventurer_legendary",
+  "description": "A flexible pathfinder who blends martial training with survival instincts.",
+  "roles": [
+    "Skirmisher"
+  ],
+  "damage_type": "Hybrid",
+  "range_type": "melee/range",
+  "enabled": true,
+  "icon": "Ingredient_Life_Essence",
+  "weapons": [
+    {
+      "type": "SWORD",
+      "damage": 1.12
+    },
+    {
+      "type": "BOW",
+      "damage": 1.12
+    },
+    {
+      "type": "STAFF",
+      "damage": 1.12
+    },
+    {
+      "type": "DAGGER",
+      "damage": 1.12
+    }
+  ],
+  "passives": [
+    {
+      "type": "XP_BONUS",
+      "value": 0.2400
+    },
+    {
+      "type": "SPECIAL_CHARGE_BONUS",
+      "value": 0.575
+    },
+    {
+      "type": "ADRENALINE",
+      "value": 0.92,
+      "threshold": 0.2,
+      "duration": 3,
+      "cooldown": 15
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "strength",
+      "stat_type": "basestat",
+      "value": 0.54
+    },
+    {
+      "type": "INNATE_ATTRIBUTE_GAIN",
+      "attribute": "stamina",
+      "stat_type": "basestat",
+      "value": 0.805
+    }
+  ],
+  "ascension": {
+    "id": "class_adventurer_legendary",
+    "stage": "legendary",
+    "path": "adventurer",
+    "final_form": false,
+    "single_route_only": true,
+    "requirements": {
+      "required_prestige": 12
+    },
+    "next_paths": [
+      {
+        "id": "class_adventurer_exalted",
+        "name": "Exalted"
+      }
+    ]
+  }
+}
